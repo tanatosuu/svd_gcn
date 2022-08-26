@@ -7,7 +7,7 @@ The algorithm is implemented in Python 3.8.5, with the following libraries addit
 * Numpy==1.19.2<br/>
 * Pandas==1.1.4<br/>
 
-# RUn the Algorithm
+# Run the Algorithm
 
 1. Run preprocess.py to get the required number of singular vectors/values. To make the calculated singular value/vectors more accurate,
 q is expected to set (slightly) larger than req_vec (K in the paper).
