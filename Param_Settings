@@ -1,15 +1,15 @@
 yelp:
-k=3, req_vec=60, beta=2.0, coef_u=0.5, coef_i=0.7
+alpha=3, req_vec=60, beta=2.0, coef_u=0.5, coef_i=0.7
 learning_rate: b(10.0) u (9.0) i  (9.0) m (7.0)
 svd-gcn-s: beta=4.0, rec_vec=20, alpha=6
 
 gowalla:
-k=3, req_vec=90, beta=2.0, coef_u=0.5, coef_i=0.9
+alpha=3, req_vec=90, beta=2.0, coef_u=0.5, coef_i=0.9
 learning_rate: b(7.5) u (10.5) i  (10.5) m(9.0)
 svd-gcn-s: beta=6.0, rec_vec=90, alpha=4
 
 movielens:
-k=2, req_vec=60, beta=2.0, coef_u=0.5, coef_i=0.9
+alpha=2, req_vec=60, beta=2.0, coef_u=0.5, coef_i=0.9
 learning_rate: b(4.5) u (6.0) i  (9.0) m(7.0)
 svd-gcn-s: beta=2.0~2.5, rec_vec=15, alpha=6
 
